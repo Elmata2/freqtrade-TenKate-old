@@ -24,15 +24,13 @@ class FREQTenKate(IStrategy):
     startup_candle_count: int = 25
     # Determine roi take profit and stop loss points
     minimal_roi = {
-        "0": 0.134,
-        "32": 0.067,
-        "210": 0.021,
-        "459": 0
+        "0": 0.03
+       
     }
 
-    stoploss = -0.092
-    trailing_stop = True
-    use_exit_signal = True
+    stoploss = -0.15
+    trailing_stop = False
+    use_exit_signal = False
     exit_profit_only = False
     exit_profit_offset = 0.0
     ignore_roi_if_entry_signal = False
