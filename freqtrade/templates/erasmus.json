@@ -1,0 +1,25 @@
+cd use{
+  "strategy_name": "erasmus",
+  "params": {
+    "buy": {},
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "0": 0.20500000000000002,
+      "529": 0.125,
+      "3203": 0.066,
+      "8727": 0
+    },
+    "stoploss": {
+      "stoploss": -0.336
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.106,
+      "trailing_stop_positive_offset": 0.107,
+      "trailing_only_offset_is_reached": false
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-10-24 12:13:34.154451+00:00"
+}
