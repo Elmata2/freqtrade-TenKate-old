@@ -61,7 +61,7 @@ class erasmus(IStrategy):
         
         # mfi index voor de koop en verkoop
 
-        dataframe['mfi'] = ta.MFI(dataframe)
+        dataframe['mfi'] = ta.MFI(dataframe, timeperiod=14)
         
         # RSI voor de strategy
         dataframe['rsi'] = ta.RSI(dataframe, timeperiod=2)
